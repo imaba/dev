@@ -8,8 +8,15 @@
 
 #include <stdio.h>
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+int main(void)
+{
+    int i;
+    
+    for (i=0;i<=10;i++)
+    {
+        printf("%d:hello \n",i);
+    }
+    printf("goodby World!\n");
+    
     return 0;
 }
