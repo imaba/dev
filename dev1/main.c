@@ -14,7 +14,7 @@ int main(void)
     
     for (i=0;i<=10;i++)
     {
-        printf("%d:hello \n",i);
+        printf("%d:hello !\n",i);
     }
     printf("goodby World!\n");
     
